@@ -32,7 +32,7 @@ const CourseList = () => {
     <div className = 'flex flex-col justify-center items-center h-screen'>
         <div className="w-fullm-auto relative overflow-x-auto shadow-md sm:rounded-lg">
           <div className='flex justify-center '>
-          <p2 className='text-3xl m-10'>Course List</p2>
+          <p className='text-3xl m-10'>Course List</p>
           </div>
           <table className="w-screen text-sm text-left rtl:text-right text-black dark:text-blue-900">
             <thead class="text-xs text-gray-700 uppercase bg-blue-600 dark:text-white">
