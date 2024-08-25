@@ -23,9 +23,9 @@ const CreateInstance = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const instanceData = {
-      "year": year,
-      "semester": semester,
-      "course": selectedCourseId
+      course: selectedCourseId,
+      year: year,
+      semester: semester
   } 
 
     console.log('Sending request with data:', instanceData);
